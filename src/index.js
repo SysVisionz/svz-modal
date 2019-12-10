@@ -23,7 +23,7 @@ const Modal = props => {
 		className, 
 		superModal
 	} = props;
-	const [active, setActive] = useState(props.);
+	const [active, setActive] = useState(props.active);
 
 	const onEsc = evt => {
 		const {closeOnEsc = true} = this.props;
